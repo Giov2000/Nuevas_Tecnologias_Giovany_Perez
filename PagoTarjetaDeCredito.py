@@ -9,7 +9,7 @@ nroCuotas = int(input("Ingrese el numero de cuotas: "))
 
 valorCuota = valorCompra/nroCuotas
 
-while valorCompra!=0:
+while valorCompra>0:
     print("\nValor del pago: ",valorCuota)
     valorCompra -= valorCuota
     print("Saldo Restante: ",valorCompra)
